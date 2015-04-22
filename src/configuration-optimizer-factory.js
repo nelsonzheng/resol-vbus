@@ -14,6 +14,9 @@ var optimizerClasses = [
     // RESOL
     // ======================================================================
 
+    // DeltaSol BS 
+    require('./configuration-optimizers/resol-deltasol-bs-2009-configuration-optimizer'),
+
     // DeltaSol BX Plus
     require('./configuration-optimizers/resol-deltasol-bx-plus-xxx-configuration-optimizer'),
 
